@@ -1,0 +1,20 @@
+<template>
+  <v-bottom-navigation absolute height="80" class="pa-2 justify-space-between">
+    <v-btn
+      width="100%"
+      height="45"
+      outlined
+      color="indigo"
+      @click="$router.push('/login')"
+      >Login</v-btn
+    >
+    <v-btn
+      width="100%"
+      height="45"
+      outlined
+      color="teal"
+      @click="$router.push('/register')"
+      >Register</v-btn
+    >
+  </v-bottom-navigation>
+</template>
