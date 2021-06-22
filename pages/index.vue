@@ -20,7 +20,6 @@ export default {
   components: {
     Footer,
   },
-  // middleware: 'authenticated',
   data() {
     return {}
   },

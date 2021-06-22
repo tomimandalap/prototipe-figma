@@ -1,13 +1,13 @@
 <template>
   <v-app dark>
-    <v-navigation-drawer
+    <!-- <v-navigation-drawer
+      v-if="$route.name !== 'index'"
       v-model="drawer"
       :mini-variant="miniVariant"
       :clipped="clipped"
       fixed
       app
       :color="drawer ? 'grey lighten-3' : 'grey'"
-      :class="$route.name !== 'login' ? '' : 'd-none'"
     >
       <v-list>
         <v-list-item
@@ -25,7 +25,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
     <!-- <v-app-bar
       :clipped-left="clipped"
       fixed

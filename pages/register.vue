@@ -9,7 +9,6 @@ export default {
   components: {
     Forms,
   },
-  // middleware: 'authenticated',
   data() {
     return {}
   },
