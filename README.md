@@ -30,7 +30,7 @@ Merupakan web app mobile yang dirancang menggunakan nuxt dan vuetify. Desain UI/
 ### ```Build Setup```
 ```
 Clone Project
-git clone https://github.com/tomimandalap/prototipr-figma.git
+git clone https://github.com/tomimandalap/prototipe-figma.git
 
 $ npm install
 $ npm run dev
