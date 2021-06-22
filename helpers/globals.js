@@ -58,6 +58,35 @@ const forms = {
         image: 'h2',
       },
     ],
+    datachat: [
+      {
+        idFrom: 1,
+        idTo: 2,
+        name: 'Laras Marihsa Putri',
+        msgFrom: ['Hi, Laras. Apa kabar?', 'Sehat, Besok sibuk gak?'],
+        msgTo: ['Sehat, kamu apa kabar?', 'type....'],
+        picture: 'hum7.jpg',
+        roomchat: 10000002,
+      },
+      {
+        idFrom: 1,
+        idTo: 3,
+        name: 'Andika Saputra',
+        msgFrom: [],
+        msgTo: ['Angel, Apa kabar?'],
+        picture: 'hum4.png',
+        roomchat: 10000003,
+      },
+      {
+        idFrom: 1,
+        idTo: 4,
+        name: 'Niko',
+        msgFrom: ['Niko...'],
+        msgTo: ['Iya...'],
+        picture: 'hum3.png',
+        roomchat: 10000004,
+      },
+    ],
   }),
 }
 export default forms

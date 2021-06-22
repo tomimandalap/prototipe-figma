@@ -3,11 +3,18 @@
   src: url('../fonts/Comfortaa/Comfortaa-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
 * {
   font-family: 'Comfortaa';
   list-style: none;
 }
-
+.f-roboto {
+  font-family: 'Roboto';
+}
 .f-xs {
   font-size: 13px;
 }
@@ -25,4 +32,7 @@
 }
 .c-white {
   color: #fff;
+}
+.cursor {
+  cursor: pointer;
 }

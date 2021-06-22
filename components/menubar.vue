@@ -40,14 +40,14 @@ export default {
         {
           id: 4,
           icon: 'mdi-message-outline',
-          value: 'chat',
-          to: '/chat',
+          value: 'chats',
+          to: '/chats',
         },
         {
           id: 5,
           icon: 'mdi-account',
           value: 'account',
-          to: '/account/1',
+          to: '/account/jane',
         },
       ],
     }

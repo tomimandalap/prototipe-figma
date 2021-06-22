@@ -27,7 +27,7 @@
         </v-col>
         <v-col v-for="(items, i) in images" :key="i" md="4" sm="4" cols="6">
           <v-img
-            :src="require(`../assets/images/${items}`)"
+            :src="require(`~/assets/images/${items}`)"
             height="100%"
           ></v-img>
         </v-col>
